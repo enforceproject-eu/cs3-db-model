@@ -24,7 +24,7 @@ public interface Cs3DataRepository extends JpaRepository<Cs3Data, Integer> {
      * 
      * @return a {@link String} object
      */
-    @Query("select st_cs3datatogeojson()")
+    @Query("select ST_CS3ObfuscatedToGeoJson()")
     String getGeoJson();
 
     @Query("select d from Cs3Data as d where d.fictionary = :fictionaryId")
