@@ -50,11 +50,15 @@ public class Cs3Utils {
         }
         return false;
     }
-    
+
     public void readExcelFile(InputStream inputstream) throws IOException {
         File tmpExcelFile = File.createTempFile("excel", ".xlsx");
         IOUtils.copy(inputstream, new FileOutputStream(tmpExcelFile));
-        Workbook workbook = WorkbookFactory.create(tmpExcelFile, "land!clearing");
+        readExcelFile(tmpExcelFile);
+    }
+    
+    public void readExcelFile(File excelFile) throws IOException {
+        Workbook workbook = WorkbookFactory.create(excelFile, "land!clearing");
         Sheet sheet = workbook.getSheetAt(0);
         Row firstRow = sheet.getRow(0);
         int rowCount = sheet.getLastRowNum();

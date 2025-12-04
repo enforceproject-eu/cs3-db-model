@@ -17,7 +17,7 @@ import org.springframework.http.converter.HttpMessageNotWritableException;
 public class Cs3ExcelFileMessageConverter extends AbstractHttpMessageConverter<InputStream> {
 
     public static final MediaType CS3_DATA =
-            new MediaType("application", "enforce-cs3-data");
+            new MediaType("application", "enforce-cs3-themis-data");
 
     @Override
     protected boolean supports(Class<?> clazz) {
