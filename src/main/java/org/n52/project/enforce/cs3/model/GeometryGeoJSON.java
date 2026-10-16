@@ -27,6 +27,6 @@ import java.util.*;
 import jakarta.annotation.Generated;
 
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2025-12-04T12:24:27.832528100+01:00[Europe/Berlin]", comments = "Generator version: 7.13.0")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-16T16:05:08.375042800+02:00[Europe/Berlin]", comments = "Generator version: 7.13.0")
 public interface GeometryGeoJSON extends Serializable {
 }

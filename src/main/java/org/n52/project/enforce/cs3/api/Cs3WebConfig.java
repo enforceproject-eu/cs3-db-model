@@ -17,10 +17,10 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class Cs3WebConfig implements WebMvcConfigurer {
     
-    /** {@inheritDoc} */
-    @Override
-    public void configureMessageConverters(List<HttpMessageConverter<?>> messageConverters) {
-        messageConverters.add(new Cs3ExcelFileMessageConverter());
-    }
+//    /** {@inheritDoc} */
+//    @Override
+//    public void configureMessageConverters(List<HttpMessageConverter<?>> messageConverters) {
+//        messageConverters.add(new Cs3ExcelFileMessageConverter());
+//    }
     
 }
