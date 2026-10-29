@@ -17,4 +17,6 @@ module CS3Module {
     requires org.apache.poi.poi;
     requires org.slf4j;
     requires org.openapitools.jackson.nullable;
+    requires org.apache.commons.logging;
+    requires org.springdoc.openapi.common;
 }
