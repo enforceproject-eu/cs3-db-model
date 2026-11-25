@@ -5,10 +5,10 @@
 	<parent>
 	  <groupId>org.n52.project.enforce</groupId>
 	  <artifactId>cs-module-parent</artifactId>
-	  <version>0.0.1-SNAPSHOT</version>
+	  <version>1.0.0</version>
 	</parent>
 	<artifactId>cs3-db-model</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<properties>
 		<openapi-spec>/src/main/resources/specs/data-management/enforce_cs3_dataAccessAPI.yaml</openapi-spec>
 		<base-package>org.n52.project.enforce.cs3</base-package>
